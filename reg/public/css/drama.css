@@ -1,0 +1,283 @@
+.w {
+  width: 78.08vw !important;
+  margin: 0 auto;
+}
+body img {
+  box-shadow: 0 0 8px 2px !important;
+}
+body section .nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body section .nav ul li {
+  font-size: 1.71vw;
+  color: black;
+  font-weight: bold;
+}
+body section .nav ul li a {
+  font-size: 1.71vw;
+  color: black;
+  font-weight: bold;
+}
+body section .Carousel {
+  margin-top: 3.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body section .Carousel .left {
+  width: 50vw;
+  height: 28.08vw;
+  position: relative;
+}
+body section .Carousel .left ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body section .Carousel .left ul li {
+  font-size: 0.9vw;
+  color: black;
+}
+body section .Carousel .left .swiper {
+  margin-top: 2vw;
+}
+body section .Carousel .left .swiper .swiper-wrapper {
+  border-radius: 1vw !important;
+}
+body section .Carousel .left .swiper .swiper-wrapper .swiper-slide {
+  border-radius: 1vw !important;
+}
+body section .Carousel .left .swiper .swiper-wrapper .swiper-slide img {
+  width: 50vw;
+  height: 24.92vw;
+  border-radius: 1vw;
+}
+body section .Carousel .left .swiper .swiper-pagination span {
+  height: 3.1vw;
+  width: 4.07vw;
+  line-height: 4.07vw;
+  border-radius: 0;
+  opacity: 1;
+  text-align: center;
+  background-color: white;
+  margin-left: 1vw;
+}
+body section .Carousel .left .swiper .swiper-pagination span img {
+  width: 80%;
+  height: 80%;
+  margin-top: 0.3vw;
+}
+body section .Carousel .rigth {
+  margin-top: 4.63vw;
+  height: 26.08vw;
+  width: 27.28vw;
+}
+body section .Carousel .rigth ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body section .Carousel .rigth ul li img {
+  width: 12.92vw;
+  height: 8.09vw;
+  border-radius: 1vw;
+}
+body section .Carousel .rigth ul li p {
+  font-size: 0.9vw;
+  color: black;
+  width: 12.92vw;
+}
+body section .Serialized {
+  margin-top: 3vw;
+}
+body section .Serialized .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body section .Serialized .top span {
+  font-size: 1.6vw;
+  font-weight: bold;
+}
+body section .Serialized .main {
+  margin-top: 1vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body section .Serialized .main div {
+  width: 16.61vw;
+  height: 8.57vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body section .Serialized .main div div img {
+  height: 5.57vw;
+  width: 5.63vw;
+  border-radius: 1vw;
+}
+body section .Serialized .main div div {
+  height: 5.57vw;
+  width: 5.63vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+body section .Serialized .main div div div {
+  width: 9vw;
+}
+body section .Serialized .main div div div p {
+  width: 9vw;
+  font-size: 1vw;
+  color: black;
+  overflow: hidden;
+  text-align: left;
+}
+body section .Serialized .main div div .ss {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body section .Serialized .main div div .ss span:nth-child(2) {
+  font-size: 1vw;
+  color: black;
+  background-color: skyblue;
+  border-radius: 0.5vw;
+}
+body section .ending img {
+  width: 100%;
+  height: 14vw;
+  border-radius: 1vw;
+}
+body section .End_animation {
+  margin-top: 1vw;
+}
+body section .End_animation .top span {
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: black;
+}
+body section .End_animation .max {
+  height: 25.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body section .End_animation .max .left {
+  height: 100%;
+  width: 17.26vw;
+}
+body section .End_animation .max .left ul {
+  margin-top: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 18.65vw;
+}
+body section .End_animation .max .left ul li {
+  display: flex;
+  margin-left: -1vw;
+}
+body section .End_animation .max .left ul li div:nth-child(1) {
+  background-color: skyblue;
+  color: black;
+  width: 1.5vw;
+  height: 2.13vw;
+  text-align: center;
+  border-radius: 1vw;
+}
+body section .End_animation .max .left ul li div:nth-child(2) {
+  color: black;
+  width: 16vw;
+  height: 2.13vw;
+  text-align: left;
+  font-size: 0.9vw;
+  margin-left: 1vw;
+  line-height: 2.13vw;
+  overflow: hidden;
+}
+body section .End_animation .max .left ul li div:nth-child(3) {
+  color: black;
+  height: 0vw;
+  width: 0vw;
+  overflow: hidden;
+}
+body section .End_animation .max .left ul li div:nth-child(3) img {
+  height: 4.18vw;
+  width: 6.13vw;
+  border-radius: 0.5vw;
+}
+body section .End_animation .max .left ul li div:nth-child(3) span:nth-child(2) {
+  font-size: 0.9vw;
+  margin: -4vw 0 0 7vw;
+  display: block;
+}
+body section .End_animation .max .left ul li div:nth-child(3) span:nth-child(3) {
+  font-size: 0.9vw;
+  margin: 1vw 0 0 7vw;
+  display: block;
+}
+body section .End_animation .max .left li:hover div:nth-child(2) {
+  width: 0;
+  height: 0;
+}
+body section .End_animation .max .left li:hover div:nth-child(3) {
+  width: 16vw;
+  height: 4.18vw;
+}
+body section .End_animation .max .right {
+  height: 100%;
+  width: 58.25vw;
+}
+body section .End_animation .max .right ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body section .End_animation .max .right ul li {
+  margin-top: 0.5vw;
+}
+body section .End_animation .max .right ul li img {
+  height: 8vw;
+  width: 12.81vw;
+  border-radius: 1vw;
+}
+body section .End_animation .max .right ul li p {
+  font-size: 0.9vw;
+  color: black;
+  width: 12.81vw;
+}
+body section .Hot_big {
+  margin-top: 1vw;
+}
+body section .Hot_big .top span {
+  font-size: 2vw;
+  font-weight: bold;
+}
+body section .Hot_big ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body section .Hot_big ul li {
+  margin-top: 1vw;
+}
+body section .Hot_big ul li img {
+  height: 18.49vw;
+  width: 14.15vw;
+  border-radius: 1vw;
+}
+body section .Hot_big ul li p {
+  font-size: 0.9vw;
+  color: black;
+  width: 12.81vw;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>注册</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="box"> 
+                <form action="http://127.0.0.1:3000/register" method="post" onsubmit="return registrationButton()" id="registrationForm">
+                    <div class="father">
+                        <div>
+                            <input type="text" class="number" placeholder="请输入账号" name="accountNumber" id="accountNumber">
+                            <i class="iconfont icon-zhengque yes showHidden"></i>
+                        </div>
+                        <p class="hong"></p>
+                    </div>
+                    <div class="father">
+                        <div>
+                            <input type="password" class="pwd" placeholder="请输入密码" name="password" id="password">
+                            <i class="iconfont icon-zhengque yes showHidden"></i>
+                        </div>
+                        <p class="safetyFactor">
+                            <span>安全系数</span>
+                            <span>无</span>
+                        </p>
+                    </div>
+                    <div class="father">
+                        <div class="about">
+                            <select class="drop-down">
+                                <option value="中国大陆" selected="selected">中国大陆</option>
+                            </select>
+                            <input type="text" class="cell-phone-number" placeholder="请输入手机号" name="cellPhoneNumber" id="cellPhoneNumber">
+                            <i class="iconfont icon-zhengque yes showHidden"></i>
+                        </div>
+                        <p class="hong"></p>
+                    </div>
+                    <div class="father">
+                        <div class="gao">
+                            <input type="checkbox" class="check" name="userAgreement" id="userAgreement"><span>我已同意<span class="yanse">《xxx用户使用协议》</span></span>
+                        </div>
+                        <p></p>
+                    </div>
+                    <div class="father">
+                        <input type="submit" class="register" value="注册">
+                    </div>
+                    <div class="jump">
+                        <a href="./index.html" class="fr">返回首页</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <div id="popup">
+            <div>
+                <p>1、请确认账号、密码、手机号是否符合要求</p>
+                <p>2、请确认是否勾选我已同意</p>
+            </div>
+            <button class="back-button fr">返回</button>
+        </div>
+    </main>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/register.js"></script>
+</body>
+</html>

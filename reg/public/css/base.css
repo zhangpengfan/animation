@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.w {
+	width: 78.08vw !important;
+	margin: 0 auto;
+  }
+
+ul li {
+	list-style: none;
+} 
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+input {
+	border: none;
+	outline: none;
+}
+
+button {
+	border: none;
+	outline: none;
+}
+
+i {
+	font-style: normal;
+}
+
+em {
+	font-style: normal;
+}
+
+/* .w {
+	width: 960px;
+	margin: 0 auto;
+} */
+
+.clearfix::before,
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+@font-face {
+	font-family: 'iconfont';
+	src: url('../fact/iconfont.woff2?t=1681817075946') format('woff2'),
+		 url('../fact/iconfont.woff?t=1681817075946') format('woff'),
+		 url('../fact/iconfont.ttf?t=1681817075946') format('truetype');
+  }
+  .iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	/* color: red; */
+  }

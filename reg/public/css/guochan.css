@@ -1,0 +1,385 @@
+.w {
+  width: 78.08vw !important;
+  margin: 0 auto;
+}
+body section .nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body section .nav ul li {
+  font-size: 1.71vw;
+  color: black;
+  font-weight: bold;
+}
+body section .nav ul li a {
+  font-size: 1.71vw;
+  color: black;
+  font-weight: bold;
+}
+body section .Carousel {
+  margin-top: 3.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body section .Carousel .left {
+  width: 50vw;
+  height: 24.97vw;
+  border-radius: 1vw;
+  position: relative;
+}
+body section .Carousel .left ul {
+  width: 13vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body section .Carousel .left ul li {
+  font-size: 1.3vw;
+  color: black;
+  font-weight: bold;
+}
+body section .Carousel .left .swiper {
+  margin-top: 2vw;
+}
+body section .Carousel .left .swiper .swiper-wrapper {
+  border-radius: 1vw !important;
+}
+body section .Carousel .left .swiper .swiper-wrapper .swiper-slide {
+  border-radius: 1vw !important;
+  position: relative;
+}
+body section .Carousel .left .swiper .swiper-wrapper .swiper-slide img {
+  width: 50vw;
+  height: 24.97vw;
+  border-radius: 1vw;
+}
+body section .Carousel .left .swiper .swiper-wrapper .swiper-slide span {
+  font-size: 1vw;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  bottom: 1vw;
+  right: 16vw;
+}
+body section .Carousel .left .swiper .swiper-pagination span {
+  height: 3.1vw;
+  width: 4.07vw;
+  line-height: 4.07vw;
+  border-radius: 0;
+  opacity: 1;
+  text-align: center;
+  background-color: white;
+  margin-left: 1vw;
+}
+body section .Carousel .left .swiper .swiper-pagination span img {
+  width: 80%;
+  height: 80%;
+  margin-top: 0.3vw;
+}
+body section .Carousel .rigth {
+  margin-top: 3.73vw;
+  height: 25.07vw;
+  width: 26.69vw;
+  background-color: #aad5ff;
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body section .Carousel .rigth .top {
+  width: 80%;
+  height: 3.86vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid red;
+  line-height: 3.86vw;
+}
+body section .Carousel .rigth .top span:nth-child(1) {
+  font-size: 1.39vw;
+  color: red;
+}
+body section .Carousel .rigth .top span:nth-child(2) {
+  font-size: 0.54vw;
+}
+body section .Carousel .rigth ul {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+body section .Carousel .rigth ul li {
+  border-radius: 0.5vw;
+  margin-top: 0.5vw;
+  height: 2.42vw;
+  width: 21.49vw;
+  line-height: 2.42vw;
+  font-size: 0.86vw;
+  color: black;
+  overflow: hidden;
+  border-bottom: 1px dashed #d1a1a1;
+}
+body section .Carousel .rigth ul li:hover {
+  background-color: white;
+}
+body section .Recently_updated {
+  margin-top: 2.84vw;
+}
+body section .Recently_updated .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body section .Recently_updated .top p {
+  font-size: 1.32vw;
+  font-weight: bold;
+  color: black;
+}
+body section .Recently_updated .top span {
+  font-size: 0.96vw;
+  font-weight: bold;
+  color: #ff0099;
+  border: 2px solid #ff0099;
+  border-radius: 0.5vw;
+}
+body section .Recently_updated ul {
+  height: 17vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+}
+body section .Recently_updated ul li {
+  margin-top: 2vw;
+  width: 16vw;
+  height: 6.32vw;
+  display: flex;
+  flex-direction: row;
+}
+body section .Recently_updated ul li div img {
+  height: 6.32vw;
+  width: 6.54vw;
+  border-radius: 1vw;
+  margin-right: 3vw;
+  box-shadow: 0 0 8px 2px !important;
+}
+body section .Recently_updated ul li div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body section .Recently_updated ul li div span {
+  text-align: left;
+  font-size: 0.91vw;
+  color: black;
+  overflow: hidden;
+}
+body section .Recently_updated .quanbu {
+  width: 100%;
+  height: 2.53vw;
+  border-radius: 1vw;
+  background-color: #ffc0cb;
+  text-align: center;
+  line-height: 2.53vw;
+}
+body section .Recently_updated .quanbu span {
+  font-size: 0.91vw;
+  color: white;
+  font-weight: bold;
+}
+body section .Domestic_animation,
+body section .Domestic_original,
+body section .Figures {
+  margin-top: 3vw;
+}
+body section .Domestic_animation .top,
+body section .Domestic_original .top,
+body section .Figures .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body section .Domestic_animation .top span,
+body section .Domestic_original .top span,
+body section .Figures .top span {
+  font-size: 1vw;
+  font-weight: bold;
+  color: black;
+}
+body section .Domestic_animation .main,
+body section .Domestic_original .main,
+body section .Figures .main {
+  margin-top: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body section .Domestic_animation .main .left,
+body section .Domestic_original .main .left,
+body section .Figures .main .left {
+  width: 58.63vw;
+}
+body section .Domestic_animation .main .left ul,
+body section .Domestic_original .main .left ul,
+body section .Figures .main .left ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body section .Domestic_animation .main .left li,
+body section .Domestic_original .main .left li,
+body section .Figures .main .left li {
+  height: 20.49vw;
+}
+body section .Domestic_animation .main .left li img,
+body section .Domestic_original .main .left li img,
+body section .Figures .main .left li img {
+  height: 18.49vw;
+  width: 14.04vw;
+  border-radius: 1vw;
+}
+body section .Domestic_animation .main .left li p,
+body section .Domestic_original .main .left li p,
+body section .Figures .main .left li p {
+  font-size: 0.91vw;
+  color: black;
+  font-weight: bold;
+  width: 14.04vw;
+  height: 1.4vw;
+  overflow: hidden;
+}
+body section .Domestic_animation .main .left li span,
+body section .Domestic_original .main .left li span,
+body section .Figures .main .left li span {
+  display: none;
+  height: 0;
+  font-size: 0.7vw;
+}
+body section .Domestic_animation .main .left li span img,
+body section .Domestic_original .main .left li span img,
+body section .Figures .main .left li span img {
+  width: 0.896vw;
+  height: 0.96vw;
+}
+body section .Domestic_animation .main .left li span:nth-child(4),
+body section .Domestic_original .main .left li span:nth-child(4),
+body section .Figures .main .left li span:nth-child(4) {
+  height: 0;
+  display: none;
+  margin-left: 2vw;
+}
+body section .Domestic_animation .main .left li:hover span,
+body section .Domestic_original .main .left li:hover span,
+body section .Figures .main .left li:hover span {
+  display: inline;
+}
+body section .Domestic_animation .main .right ul,
+body section .Domestic_original .main .right ul,
+body section .Figures .main .right ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 9.16vw;
+}
+body section .Domestic_animation .main .right ul li,
+body section .Domestic_original .main .right ul li,
+body section .Figures .main .right ul li {
+  display: flex;
+}
+body section .Domestic_animation .main .right ul li div:nth-child(1),
+body section .Domestic_original .main .right ul li div:nth-child(1),
+body section .Figures .main .right ul li div:nth-child(1) {
+  background-color: #ff9900;
+  color: black;
+  width: 1.5vw;
+  height: 2.13vw;
+  text-align: center;
+  border-radius: 1vw;
+}
+body section .Domestic_animation .main .right ul li div:nth-child(2),
+body section .Domestic_original .main .right ul li div:nth-child(2),
+body section .Figures .main .right ul li div:nth-child(2) {
+  color: black;
+  width: 16vw;
+  height: 2.13vw;
+  text-align: left;
+  font-size: 0.9vw;
+  margin-left: 1vw;
+  line-height: 2.13vw;
+  overflow: hidden;
+}
+body section .Domestic_animation .main .right ul li div:nth-child(3),
+body section .Domestic_original .main .right ul li div:nth-child(3),
+body section .Figures .main .right ul li div:nth-child(3) {
+  color: black;
+  height: 0vw;
+  width: 0vw;
+  overflow: hidden;
+}
+body section .Domestic_animation .main .right ul li div:nth-child(3) img,
+body section .Domestic_original .main .right ul li div:nth-child(3) img,
+body section .Figures .main .right ul li div:nth-child(3) img {
+  height: 4.18vw;
+  width: 6.13vw;
+}
+body section .Domestic_animation .main .right ul li div:nth-child(3) span:nth-child(2),
+body section .Domestic_original .main .right ul li div:nth-child(3) span:nth-child(2),
+body section .Figures .main .right ul li div:nth-child(3) span:nth-child(2) {
+  font-size: 0.9vw;
+  margin: -4vw 0 0 7vw;
+  display: block;
+}
+body section .Domestic_animation .main .right ul li div:nth-child(3) span:nth-child(3),
+body section .Domestic_original .main .right ul li div:nth-child(3) span:nth-child(3),
+body section .Figures .main .right ul li div:nth-child(3) span:nth-child(3) {
+  font-size: 0.9vw;
+  margin: 1vw 0 0 7vw;
+  display: block;
+}
+body section .Domestic_animation .main .right li:hover div:nth-child(2),
+body section .Domestic_original .main .right li:hover div:nth-child(2),
+body section .Figures .main .right li:hover div:nth-child(2) {
+  width: 0;
+  height: 0;
+}
+body section .Domestic_animation .main .right li:hover div:nth-child(3),
+body section .Domestic_original .main .right li:hover div:nth-child(3),
+body section .Figures .main .right li:hover div:nth-child(3) {
+  width: 16vw;
+  height: 4.18vw;
+}
+body section .Domestic_animation .main .right .end,
+body section .Domestic_original .main .right .end,
+body section .Figures .main .right .end {
+  margin-top: 2vw;
+}
+body section .Domestic_animation .main .right .end img,
+body section .Domestic_original .main .right .end img,
+body section .Figures .main .right .end img {
+  width: 14.52vw;
+  height: 7.34vw;
+  border-radius: 1vw;
+}
+body section .Domestic_animation .ending,
+body section .Domestic_original .ending,
+body section .Figures .ending {
+  margin-top: 2vw;
+}
+body section .Domestic_animation .ending img,
+body section .Domestic_original .ending img,
+body section .Figures .ending img {
+  width: 100%;
+  height: 8vw;
+  border-radius: 1vw;
+}
+body section .Figures .right img {
+  height: 22.62vw;
+  width: 16.88vw;
+  border-radius: 1vw;
+  box-shadow: 0 0 8px 2px !important;
+}

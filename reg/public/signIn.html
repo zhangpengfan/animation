@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>登录</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/signIn.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="header">账号密码登录</div>
+            <div class="box"> 
+                <form action="http://127.0.0.1:3000/signIn" method="post" autocomplete="off" onsubmit="return registrationButton()" id="loginForm">
+                    <div class="father">
+                        <div>
+                            <input type="text" class="number" placeholder="请输入账号" name="accountNumber" id="accountNumber">
+                            <i class="iconfont icon-zhengque yes showHidden"></i>
+                        </div>
+                        <p class="hong"></p>
+                    </div>
+                    <div class="father">
+                        <div>
+                            <input type="password" class="pwd" placeholder="请输入密码" name="password" id="password">
+                            <i class="iconfont icon-zhengque yes showHidden"></i>
+                        </div>
+                        <p class="hong"></p>
+                    </div>
+                    <div class="father">
+                        <div class="about">
+                            <input type="text" class="enterVerificationCode" placeholder="请输入验证码">
+                            <div class="verificationCode">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <i class="iconfont icon-zhengque yes showHidden"></i>
+                        </div>
+                        <p class="hong"></p>
+                    </div>
+                    <div class="father">
+                        <div class="gao">
+                            <input type="checkbox" class="check"><span>记住密码</span>
+                        </div>
+                        <p class="hong"></p>
+                    </div>
+                    <div class="father">
+                        <input type="submit" class="determine" value="确定">
+                    </div>
+                    <div class="jump">
+                        <a href="./index.html" class="fr">返回首页</a>
+                    </div>
+                </form>
+            </div>
+            <div class="footer">
+                <a href="">忘了密码？</a><span>|</span>
+                <a href="./register.html">注册新账号</a><span>|</span>
+                <a href="">意见反馈</a>
+            </div>
+        </section>
+
+        <div id="popup">
+            <div>
+                <p>1、请确认账号、密码、手机号是否符合要求</p>
+                <p>2、请确认是否勾选我已同意</p>
+            </div>
+            <button class="back-button fr">返回</button>
+        </div>
+    </main>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/signIn.js"></script>
+</body>
+</html>
